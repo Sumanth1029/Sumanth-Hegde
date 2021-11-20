@@ -12,14 +12,14 @@ const Image = ({ blok }) => {
           <img
             src={blok.image.filename}
             className="img-fluid"
-            alt={blok.alt}
+            alt={blok.image.alt}
             width={blok.width}
             height={blok.height}
           />
         ) : (
           <img
             src={blok.image.filename + "/m/filters:format(webp)"}
-            alt={blok.alt}
+            alt={blok.image.alt}
             className="img-fluid"
             width={blok.width}
             height={blok.height}
