@@ -21,6 +21,7 @@
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
     "storyblok-js-client": "^4.0.7",
-    "storyblok-react": "^0.1.2"
+    "storyblok-react": "^0.1.2",
+    "storyblok-rich-text-react-renderer": "^2.4.1"
   }
 }

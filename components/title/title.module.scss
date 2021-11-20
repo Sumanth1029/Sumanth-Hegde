@@ -1,16 +1,15 @@
 .container {
-  //   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  @media only screen and (max-width: 768px) {
-    text-align: center;
-  }
+  padding: 40px 0;
+  text-align: center;
+
   .heading {
     font-size: 80px;
     font-weight: 400;
-    padding: 40px 0;
-    font-family: "Eurostyle";
+    font-family: "Eurostyle", "Segoe UI";
+    padding-bottom: 10px;
   }
   .subHeading {
-    font-size: 30px;
+    font-size: 24px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 }

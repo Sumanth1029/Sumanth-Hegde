@@ -4,6 +4,10 @@ import ReferenceComponent from "./ReferenceComponent";
 import Button from "./Button/Button";
 import title from "./title/title";
 import Layout from "./Layout/Layout";
+import Banner from "./Banner/Banner";
+import CardContainer from "./CardContainer/CardContainer";
+import Image from "./Image/Image";
+
 // resolve Storyblok components to Next.js components
 const Components = {
   page: Page,
@@ -12,6 +16,9 @@ const Components = {
   button: Button,
   title: title,
   layout: Layout,
+  banner: Banner,
+  cardContainer: CardContainer,
+  image: Image,
 };
 
 const DynamicComponent = ({ blok }) => {
