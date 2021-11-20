@@ -12,7 +12,7 @@ const Banner = ({ blok }) => {
             <h2>{blok.title}</h2>
           </div>
         )}
-        <div>
+        <div className={Styles["desc"]}>
           <Richtext document={blok.description} />
         </div>
       </div>

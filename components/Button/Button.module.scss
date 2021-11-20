@@ -1,17 +1,23 @@
-.button {
-  border: 1px solid transparent;
-  color: tomato;
-  padding: 10px;
-  transition: all 0.25s;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: 500;
-}
+.container {
+  .button {
+    border: 1px solid transparent;
+    color: #ff5100;
+    padding: 10px;
+    transition: all 0.25s;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    &:hover {
+      border: 1px solid black;
+      transition: all 0.25s;
+      border-radius: 35px;
+      background-color: black;
+      // color: white;
+    }
+  }
 
-.button:hover {
-  border: 1px solid tomato;
-  transition: all 0.25s;
-  border-radius: 35px;
-  background-color: tomato;
-  color: white;
+  a {
+    color: unset;
+    text-decoration: none;
+  }
 }

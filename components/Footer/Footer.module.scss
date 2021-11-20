@@ -1,0 +1,43 @@
+.container {
+  background-color: black;
+  text-align: center;
+  padding: 40px 0px;
+  border-radius: 25px 25px 0 0;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px 20px;
+  .title {
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ff5100;
+  }
+  .logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+  }
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    li {
+      padding: 8px 16px;
+    }
+    .socialLink {
+      -webkit-transition: 0.3s -webkit-filter linear;
+      -moz-transition: 0.3s -moz-filter linear;
+      -moz-transition: 0.3s filter linear;
+      -ms-transition: 0.3s -ms-filter linear;
+      -o-transition: 0.3s -o-filter linear;
+      transition: 0.3s filter linear, 0.3s -webkit-filter linear;
+    }
+    .socialLink:hover {
+      filter: drop-shadow(0 0 10px rgb(117, 27, 0));
+    }
+  }
+}

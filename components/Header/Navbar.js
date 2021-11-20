@@ -13,8 +13,8 @@ const Navigationbar = ({ blok }) => {
           <Navbar.Brand className={Styles["logo"]}>
             <img
               src={blok.logo.filename}
-              height={50}
-              width={60}
+              height={70}
+              width={70}
               alt={blok.logo.alt}
             />
           </Navbar.Brand>

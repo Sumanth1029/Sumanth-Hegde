@@ -7,6 +7,7 @@ import Layout from "./Layout/Layout";
 import Banner from "./Banner/Banner";
 import CardContainer from "./CardContainer/CardContainer";
 import Image from "./Image/Image";
+import Footer from "./Footer/Footer";
 
 // resolve Storyblok components to Next.js components
 const Components = {
@@ -19,6 +20,7 @@ const Components = {
   banner: Banner,
   cardContainer: CardContainer,
   image: Image,
+  footer: Footer,
 };
 
 const DynamicComponent = ({ blok }) => {
