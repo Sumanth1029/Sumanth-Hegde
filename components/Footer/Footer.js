@@ -5,7 +5,6 @@ import Styles from "./Footer.module.scss";
 const Footer = ({ blok }) => {
   return (
     <SbEditable content={blok}>
-      {console.log(JSON.stringify(blok))}
       <div className={Styles.container}>
         <div className="container">
           <img

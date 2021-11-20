@@ -2,17 +2,20 @@
   text-align: center;
   .button {
     border: 1px solid transparent;
-    color: #ff5100;
     padding: 10px;
     transition: all 0.25s;
     border-radius: 10px;
     font-size: 18px;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     &:hover {
       border: 1px solid black;
       transition: all 0.25s;
       border-radius: 35px;
       background-color: black;
+      color: #ff5100;
+
       // color: white;
     }
   }

@@ -6,6 +6,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="preload" href="fonts/Eurostyle" as="font" crossOrigin="" />
+          <title>Sumanth Hegde</title>
         </Head>
         <body>
           <Main />

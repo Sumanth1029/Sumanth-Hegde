@@ -9,11 +9,11 @@ const Navigationbar = ({ blok }) => {
     <SbEditable content={blok}>
       <Navbar bg="white" expand="lg" className={Styles["navbar-container"]}>
         <Container>
-          <Navbar.Brand className={Styles["logo"]}>
+          <Navbar.Brand href="/about" className={Styles["logo"]}>
             <img
               src={blok.logo.filename}
-              height={70}
-              width={70}
+              height={50}
+              width={50}
               alt={blok.logo.alt}
             />
           </Navbar.Brand>
