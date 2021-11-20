@@ -1,9 +1,8 @@
 import React from "react";
 import SbEditable from "storyblok-react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import Styles from "./Navbar.module.css";
+import Styles from "./Navbar.module.scss";
 import DynamicComponent from "../DynamicComponent";
-import Button from "../Button/Button";
 
 const Navigationbar = ({ blok }) => {
   return (
@@ -25,7 +24,7 @@ const Navigationbar = ({ blok }) => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav className={Styles["right-nav"]}>
-              <Nav.Link href="#contact">
+              <Nav.Link href="#contact" className={Styles["btn"]}>
                 {blok.button &&
                   blok.button.map((btn) => (
                     <div key={btn._uid}>
